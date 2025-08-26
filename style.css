@@ -1,11 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-:root {
-    --cor-principal:#C78BA7;
-    --cor-rosa:#ec94a1;
+<<<<<<< HEAD:root {
+    --cor-principal: #C78BA7;
+    --cor-rosa: #ec94a1;
     --secundaria: #ffa392;
     --cor-salmão: #ffba7f;
-    --cor-laranja:#ffd770;
-    --cor-amarelo:#f9f871;
-    --cor-branco:#ffffff;
-    --cor-preto:#000000;
+    --cor-laranja: #ffd770;
+    --cor-amarelo: #f9f871;
+    --cor-branco: #ffffff;
+    --cor-preto: #000000;
+
+}
+
+#body {
+    background-color: var(--cor-rosa);
+}
+
+#rodape {
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+}
+
+#ancora {
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+#ancora:hover {
+    color: var(--cor-principal);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+:root {
+    --cor-principal:#845ec2;
+    --cor-escuro: #dbafff;
+    --cor-secundaria: #3b1e79;
+    --cor-azulclaro: #deb2ff;
+    --cor-azulescuro: #deb2ff;
+    --cor-branco: #ffffff;
+    --cor-preto: #000000;
+}
+}
